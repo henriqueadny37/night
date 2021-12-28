@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+background-image: linear-gradient(to left, darkgray,black);
+min-width: 360px;
+max-width: 800px;
+margin: auto;
+}
+
+h1{
+    color: black;
+    font-size: 3em;
+background-color:greenyellow;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1:hover{
+    background-image: linear-gradient(to left, darkgray, black);
+    color: white;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+h2:hover{
+    color:greenyellow;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    
+}
+a:hover {
+color: chartreuse;
+text-decoration: underline;
+}
+p {
+    font-size: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.especial::before{
+    content: '✳';
+}
+a:active{
+    color:red;
+}
